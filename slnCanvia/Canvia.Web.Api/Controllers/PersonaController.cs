@@ -1,5 +1,4 @@
-﻿using canvia.Business.Entities;
-using Canvia.Business.Contract;
+﻿using Canvia.Business.Contract;
 using Canvia.Business.Entities;
 using System;
 using System.Collections.Generic;

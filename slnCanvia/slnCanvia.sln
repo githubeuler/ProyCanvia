@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services Layer", "Services 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Entities Layer", "Business Entities Layer", "{A319E03A-E41B-4981-970D-1CCEB39EF96E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Business.Entities", "canvia.Business.Entities\Canvia.Business.Entities.csproj", "{865106A3-A5D7-4935-8FE3-324537A9039E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Business.Entities", "Canvia.Business.Entities\Canvia.Business.Entities.csproj", "{865106A3-A5D7-4935-8FE3-324537A9039E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Factory", "Dependency Factory", "{D798C708-11D7-4619-9A04-E99D853AA266}"
 EndProject

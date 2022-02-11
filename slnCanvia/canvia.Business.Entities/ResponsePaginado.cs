@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace canvia.Business.Entities
+namespace Canvia.Business.Entities
 {
     public class ResponsePaginado<T>
     {

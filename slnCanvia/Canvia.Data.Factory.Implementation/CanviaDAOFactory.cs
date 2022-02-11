@@ -15,5 +15,10 @@ namespace Canvia.Data.Factory.Implementation
         {
             return new PersonaDAO();
         }
+
+        public IUsuarioDAO GetUsuarioDAO()
+        {
+            return new UsuarioDAO();
+        }
     }
 }

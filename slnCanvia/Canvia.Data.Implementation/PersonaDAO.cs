@@ -90,7 +90,7 @@ namespace Canvia.Data.Implementation
                 command.Parameters.Add("@NumeroDocumento", SqlDbType.VarChar, 100).Value = persona.NumeroDocumento;
                 command.Parameters.Add("@FechaNacimiento", SqlDbType.DateTime).Value = Convert.ToDateTime(persona.sFechaNacimiento);
                 command.Parameters.Add("@CodigoPersona", SqlDbType.Int);
-                command.Parameters["@CodigoPersona"].Direction = ParameterDirection.Output; ;
+                command.Parameters["@CodigoPersona"].Direction = ParameterDirection.Output; 
 
                 try
                 {

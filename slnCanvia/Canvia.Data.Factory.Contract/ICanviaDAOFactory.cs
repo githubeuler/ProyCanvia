@@ -10,7 +10,8 @@ namespace Canvia.Data.Factory.Contract
 {
     public interface ICanviaDAOFactory
     {
-        IPersonaDAO GetPersonaDAO(); 
+        IPersonaDAO GetPersonaDAO();
+        IUsuarioDAO GetUsuarioDAO();
 
     }
 }
