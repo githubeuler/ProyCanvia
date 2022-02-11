@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Business.Contract", "Canvia.Business.Contract\Canvia.Business.Contract.csproj", "{4676CFFD-9692-4D9B-8317-66A576FBD608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Business.Implementation", "Canvia.Business.Implementation\Canvia.Business.Implementation.csproj", "{530980F0-CCC0-43C6-9C79-9E4F06F15D5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{606FF3DF-5A0D-40BE-87A1-FEDA74C9A616}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access Layer", "Data Access Layer", "{593A3CFD-D3F7-415C-9719-AAC5DA842F16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Data.Implementation", "Canvia.Data.Implementation\Canvia.Data.Implementation.csproj", "{96E88C2C-CCDE-43D2-9E3C-6FEAB84B5869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Data.Contract", "Canvia.Data.Contract\Canvia.Data.Contract.csproj", "{9F27F744-F0C5-4EED-9536-FEBA4150B067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services Layer", "Services Layer", "{F4ABD6FD-CE18-4814-B0DD-1944F3F2967F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Entities Layer", "Business Entities Layer", "{A319E03A-E41B-4981-970D-1CCEB39EF96E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Business.Entities", "canvia.Business.Entities\Canvia.Business.Entities.csproj", "{865106A3-A5D7-4935-8FE3-324537A9039E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Factory", "Dependency Factory", "{D798C708-11D7-4619-9A04-E99D853AA266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Canvia Module Layer", "Canvia Module Layer", "{4D145935-B3FD-4EC0-8F3E-47826B0FC037}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Data.Factory.Contract", "Canvia.Data.Factory.Contract\Canvia.Data.Factory.Contract.csproj", "{D77734D1-2694-42F0-9A1A-DE06274A46E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Data.Factory.Implementation", "Canvia.Data.Factory.Implementation\Canvia.Data.Factory.Implementation.csproj", "{16AAB1C5-D6B3-4F83-8F49-8990DBB6A712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Canvia.Web.Api", "Canvia.Web.Api\Canvia.Web.Api.csproj", "{926F33B9-0392-499F-899F-DA583F69D59C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4676CFFD-9692-4D9B-8317-66A576FBD608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4676CFFD-9692-4D9B-8317-66A576FBD608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4676CFFD-9692-4D9B-8317-66A576FBD608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4676CFFD-9692-4D9B-8317-66A576FBD608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530980F0-CCC0-43C6-9C79-9E4F06F15D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530980F0-CCC0-43C6-9C79-9E4F06F15D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530980F0-CCC0-43C6-9C79-9E4F06F15D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530980F0-CCC0-43C6-9C79-9E4F06F15D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E88C2C-CCDE-43D2-9E3C-6FEAB84B5869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E88C2C-CCDE-43D2-9E3C-6FEAB84B5869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E88C2C-CCDE-43D2-9E3C-6FEAB84B5869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E88C2C-CCDE-43D2-9E3C-6FEAB84B5869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F27F744-F0C5-4EED-9536-FEBA4150B067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F27F744-F0C5-4EED-9536-FEBA4150B067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F27F744-F0C5-4EED-9536-FEBA4150B067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F27F744-F0C5-4EED-9536-FEBA4150B067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865106A3-A5D7-4935-8FE3-324537A9039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865106A3-A5D7-4935-8FE3-324537A9039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865106A3-A5D7-4935-8FE3-324537A9039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865106A3-A5D7-4935-8FE3-324537A9039E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77734D1-2694-42F0-9A1A-DE06274A46E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77734D1-2694-42F0-9A1A-DE06274A46E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77734D1-2694-42F0-9A1A-DE06274A46E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77734D1-2694-42F0-9A1A-DE06274A46E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16AAB1C5-D6B3-4F83-8F49-8990DBB6A712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AAB1C5-D6B3-4F83-8F49-8990DBB6A712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AAB1C5-D6B3-4F83-8F49-8990DBB6A712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AAB1C5-D6B3-4F83-8F49-8990DBB6A712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926F33B9-0392-499F-899F-DA583F69D59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926F33B9-0392-499F-899F-DA583F69D59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926F33B9-0392-499F-899F-DA583F69D59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926F33B9-0392-499F-899F-DA583F69D59C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4676CFFD-9692-4D9B-8317-66A576FBD608} = {606FF3DF-5A0D-40BE-87A1-FEDA74C9A616}
+		{530980F0-CCC0-43C6-9C79-9E4F06F15D5B} = {606FF3DF-5A0D-40BE-87A1-FEDA74C9A616}
+		{96E88C2C-CCDE-43D2-9E3C-6FEAB84B5869} = {4D145935-B3FD-4EC0-8F3E-47826B0FC037}
+		{9F27F744-F0C5-4EED-9536-FEBA4150B067} = {4D145935-B3FD-4EC0-8F3E-47826B0FC037}
+		{865106A3-A5D7-4935-8FE3-324537A9039E} = {A319E03A-E41B-4981-970D-1CCEB39EF96E}
+		{D798C708-11D7-4619-9A04-E99D853AA266} = {593A3CFD-D3F7-415C-9719-AAC5DA842F16}
+		{4D145935-B3FD-4EC0-8F3E-47826B0FC037} = {593A3CFD-D3F7-415C-9719-AAC5DA842F16}
+		{D77734D1-2694-42F0-9A1A-DE06274A46E0} = {D798C708-11D7-4619-9A04-E99D853AA266}
+		{16AAB1C5-D6B3-4F83-8F49-8990DBB6A712} = {D798C708-11D7-4619-9A04-E99D853AA266}
+		{926F33B9-0392-499F-899F-DA583F69D59C} = {F4ABD6FD-CE18-4814-B0DD-1944F3F2967F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3E16573-F7FC-40B5-AB80-0B28A4E93B79}
+	EndGlobalSection
+EndGlobal
