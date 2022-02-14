@@ -176,7 +176,7 @@ namespace Canvia.Data.Implementation
             UsuarioBE objUsuario = new UsuarioBE();
             using (SqlConnection connection = new SqlConnection(cn))
             {
-                SqlCommand command = new SqlCommand("USP_OBTENER_PERSONA", connection);
+                SqlCommand command = new SqlCommand("USP_OBTENER_USUARIO", connection);
                 command.CommandType = CommandType.StoredProcedure;
 
                 command.Parameters.Add("@Codigo", SqlDbType.Int).Value = codigo;
