@@ -97,6 +97,7 @@ namespace Canvia.Data.Implementation
                     connection.Open();
                     result.CodeResult = command.ExecuteNonQuery();
                     persona.Codigo = Convert.ToInt32(command.Parameters["@CodigoPersona"].Value);
+                    result.MessageResult = persona.Codigo.ToString();
                     if (persona.Codigo == -1)
                     {
                         result.CodeResult = -1;
