@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeudaBE.cs" />
+    <Compile Include="DeudaDetalleBE.cs" />
     <Compile Include="EstadoBE.cs" />
     <Compile Include="EstadoCivilBE.cs" />
+    <Compile Include="EstadoPagoBE.cs" />
     <Compile Include="PaginadoBE.cs" />
     <Compile Include="PersonaBE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

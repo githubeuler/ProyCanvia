@@ -11,6 +11,15 @@ namespace Canvia.Data.Factory.Implementation
 {
     public class CanviaDAOFactory : ICanviaDAOFactory
     {
+        public IDeudaDAO GetDeudaDAO()
+        {
+            return new DeudaDAO();
+        }
+        public IDeudaDetalleDAO GetDeudaDetalleDAO()
+        {
+            return new DeudaDetalleDAO();
+        }
+
         public IPersonaDAO GetPersonaDAO()
         {
             return new PersonaDAO();

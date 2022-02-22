@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDeudaDetalleLogic.cs" />
+    <Compile Include="IDeudaLogic.cs" />
     <Compile Include="IPersonaLogic.cs" />
     <Compile Include="IUsuarioLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

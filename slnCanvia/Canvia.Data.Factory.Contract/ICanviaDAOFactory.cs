@@ -12,6 +12,8 @@ namespace Canvia.Data.Factory.Contract
     {
         IPersonaDAO GetPersonaDAO();
         IUsuarioDAO GetUsuarioDAO();
+        IDeudaDAO GetDeudaDAO();
+        IDeudaDetalleDAO GetDeudaDetalleDAO();
 
     }
 }

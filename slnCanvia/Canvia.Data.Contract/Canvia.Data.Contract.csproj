@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDeudaDAO.cs" />
+    <Compile Include="IDeudaDetalleDAO.cs" />
     <Compile Include="IPersonaDAO.cs" />
     <Compile Include="IUsuarioDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

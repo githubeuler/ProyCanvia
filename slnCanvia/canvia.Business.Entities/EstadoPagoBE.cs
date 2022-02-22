@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Canvia.Business.Entities
 {
-    public class ResponsePaginado<T>
+    public class EstadoPagoBE
     {
-        public int totalFilas { get; set; }
-        public int montoTotal { get; set; }
-        public T data { get; set; }
+        public int Codigo { get; set; }
+        public string Descripcion { get; set; }
     }
 }

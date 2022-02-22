@@ -23,6 +23,8 @@ namespace Canvia.Web.Api.App_Start
             container.RegisterType<ICanviaDAOFactory, CanviaDAOFactory>();
             container.RegisterType<IPersonaLogic, PersonaLogic>();
             container.RegisterType<IUsuarioLogic, UsuarioLogic>();
+            container.RegisterType<IDeudaLogic, DeudaLogic>();
+            container.RegisterType<IDeudaDetalleLogic, DeudaDetalleLogic>();
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
          }
         
